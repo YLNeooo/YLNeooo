@@ -1,6 +1,9 @@
-## Hi there 👋 I'm currently a CS major @Georgia Tech and is excited to implement ML/DL frameworks into the industry to create real-world impact. Over the past three years, I've been actively deplying ML/DL theories to classify EEG brain signals for mental health diagnosis; these tasks are performed using PyTorch and TensorFlow and the results (accuracy, recall rate, AUC) are all published in IEEE conferences. 
-## I'm open to research positions as well as AI/software engineering jobs in the US. Feel free to reach out at yonglineo@gmail.com!
-## Link to my [Google Scholar Page](https://scholar.google.com/citations?user=miPGurwAAAAJ&hl=en)
+## Introduction
+Hi there 👋 I'm currently a CS major @Georgia Tech and is excited to implement ML/DL frameworks into the industry to create real-world impact. Over the past three years, I've been actively deplying ML/DL theories to classify EEG brain signals for mental health diagnosis; these tasks are performed using PyTorch and TensorFlow and the results (accuracy, recall rate, AUC) are all published in IEEE conferences. 
+
+I'm open to AI research positions as well as AI/software engineering jobs in the US. Feel free to reach out at yonglineo@gmail.com!
+
+Link to my [Google Scholar Page](https://scholar.google.com/citations?user=miPGurwAAAAJ&hl=en) and my [LinkedIn](https://www.linkedin.com/in/yong-li-neo-23360b2b8/).
 
 <!--
 **YLNeooo/YLNeooo** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
