@@ -1,7 +1,7 @@
 ## Introduction
 Hi there! 👋 My name is Neo (like in 'The Matrix')
 
-I'm been an experienced coder comfortable with languages like C, C++, Java, and Python, and I work with TensorFlow, PyTorch, NumPy, Git, SwiftUI, SciKit-learn.
+I'm an experienced coder comfortable with languages like C, C++, Java, and Python, and I work with TensorFlow, PyTorch, NumPy, Git, SwiftUI, SciKit-learn.
 
 I'm currently a CS major studying @Georgia Tech and is excited to implement ML/DL frameworks into the industry to create real-world impact. Over the past three years, I've been actively deploying ML/DL theories to classify EEG brain signals for mental health diagnosis; these tasks are performed using PyTorch and TensorFlow and the results (accuracy, recall rate, AUC) are all published in IEEE conferences.
 
