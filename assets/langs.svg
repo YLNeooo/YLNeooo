@@ -1,0 +1,94 @@
+<svg width="380" height="205" viewBox="0 0 380 205" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="pyG" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#3b82f6"/>
+      <stop offset="100%" stop-color="#60a5fa"/>
+    </linearGradient>
+    <linearGradient id="cppG" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#a78bfa"/>
+    </linearGradient>
+    <linearGradient id="cG" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7c3aed"/>
+      <stop offset="100%" stop-color="#c4b5fd"/>
+    </linearGradient>
+    <linearGradient id="javaG" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#fbbf24"/>
+    </linearGradient>
+    <linearGradient id="swiftG" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#f97316"/>
+      <stop offset="100%" stop-color="#fb923c"/>
+    </linearGradient>
+    <clipPath id="pyClip">
+      <rect x="20" y="68" width="323" height="6" rx="3"/>
+    </clipPath>
+    <clipPath id="cppClip">
+      <rect x="20" y="98" width="299" height="6" rx="3"/>
+    </clipPath>
+    <clipPath id="cClip">
+      <rect x="20" y="128" width="279" height="6" rx="3"/>
+    </clipPath>
+    <clipPath id="javaClip">
+      <rect x="20" y="158" width="265" height="6" rx="3"/>
+    </clipPath>
+    <clipPath id="swiftClip">
+      <rect x="20" y="188" width="221" height="6" rx="3"/>
+    </clipPath>
+  </defs>
+
+  <!-- Card -->
+  <rect width="380" height="205" rx="10" fill="#161b22"/>
+  <rect width="380" height="205" rx="10" fill="none" stroke="#30363d" stroke-width="1"/>
+
+  <!-- Title -->
+  <text x="20" y="28"
+        font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
+        font-size="13" font-weight="600" fill="#f0f6fc">Languages</text>
+  <rect x="20" y="34" width="32" height="2" rx="1" fill="#8b5cf6"/>
+
+  <!-- Python -->
+  <circle cx="28" cy="58" r="4" fill="#3b82f6" opacity="0.9"/>
+  <text x="40" y="62" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+        font-size="12" fill="#e6edf3">Python</text>
+  <text x="360" y="62" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+        font-size="11" fill="#484f58" text-anchor="end">95%</text>
+  <rect x="20" y="68" width="340" height="6" rx="3" fill="#21262d"/>
+  <rect x="20" y="68" width="323" height="6" rx="3" fill="url(#pyG)" clip-path="url(#pyClip)"/>
+
+  <!-- C++ -->
+  <circle cx="28" cy="88" r="4" fill="#8b5cf6" opacity="0.9"/>
+  <text x="40" y="92" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+        font-size="12" fill="#e6edf3">C++</text>
+  <text x="360" y="92" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+        font-size="11" fill="#484f58" text-anchor="end">88%</text>
+  <rect x="20" y="98" width="340" height="6" rx="3" fill="#21262d"/>
+  <rect x="20" y="98" width="299" height="6" rx="3" fill="url(#cppG)"/>
+
+  <!-- C -->
+  <circle cx="28" cy="118" r="4" fill="#7c3aed" opacity="0.9"/>
+  <text x="40" y="122" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+        font-size="12" fill="#e6edf3">C</text>
+  <text x="360" y="122" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+        font-size="11" fill="#484f58" text-anchor="end">82%</text>
+  <rect x="20" y="128" width="340" height="6" rx="3" fill="#21262d"/>
+  <rect x="20" y="128" width="279" height="6" rx="3" fill="url(#cG)"/>
+
+  <!-- Java -->
+  <circle cx="28" cy="148" r="4" fill="#f59e0b" opacity="0.9"/>
+  <text x="40" y="152" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+        font-size="12" fill="#e6edf3">Java</text>
+  <text x="360" y="152" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+        font-size="11" fill="#484f58" text-anchor="end">78%</text>
+  <rect x="20" y="158" width="340" height="6" rx="3" fill="#21262d"/>
+  <rect x="20" y="158" width="265" height="6" rx="3" fill="url(#javaG)"/>
+
+  <!-- SwiftUI -->
+  <circle cx="28" cy="178" r="4" fill="#f97316" opacity="0.9"/>
+  <text x="40" y="182" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+        font-size="12" fill="#e6edf3">SwiftUI</text>
+  <text x="360" y="182" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+        font-size="11" fill="#484f58" text-anchor="end">65%</text>
+  <rect x="20" y="188" width="340" height="6" rx="3" fill="#21262d"/>
+  <rect x="20" y="188" width="221" height="6" rx="3" fill="url(#swiftG)"/>
+</svg>

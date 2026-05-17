@@ -1,0 +1,95 @@
+<svg width="800" height="170" viewBox="0 0 800 170" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="800" y2="170" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="65%" stop-color="#0f0a25"/>
+      <stop offset="100%" stop-color="#160d33"/>
+    </linearGradient>
+    <linearGradient id="accentBar" x1="0" y1="0" x2="0" y2="170" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#3b82f6"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="170" rx="12" fill="url(#bg)"/>
+
+  <!-- Left accent bar -->
+  <rect x="0" y="0" width="4" height="170" rx="2" fill="url(#accentBar)"/>
+
+  <!-- Name -->
+  <text x="32" y="80"
+        font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
+        font-size="56" font-weight="800" fill="#f0f6fc" letter-spacing="-2">Neo</text>
+
+  <!-- Subtitle -->
+  <text x="32" y="108"
+        font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
+        font-size="14" fill="#8b949e">CS Major @ Georgia Tech  ·  ML/DL Researcher  ·  Competitive Programmer</text>
+
+  <!-- Tag: IEEE Published -->
+  <rect x="32" y="126" width="108" height="22" rx="11" fill="#7c3aed" fill-opacity="0.2"/>
+  <rect x="32" y="126" width="108" height="22" rx="11" fill="none" stroke="#8b5cf6" stroke-width="0.6" stroke-opacity="0.5"/>
+  <text x="86" y="141"
+        font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+        font-size="11" fill="#a78bfa" text-anchor="middle">IEEE Published</text>
+
+  <!-- Tag: Georgia Tech -->
+  <rect x="148" y="126" width="98" height="22" rx="11" fill="#1d4ed8" fill-opacity="0.2"/>
+  <rect x="148" y="126" width="98" height="22" rx="11" fill="none" stroke="#3b82f6" stroke-width="0.6" stroke-opacity="0.5"/>
+  <text x="197" y="141"
+        font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+        font-size="11" fill="#60a5fa" text-anchor="middle">Georgia Tech</text>
+
+  <!-- Tag: Open to Work -->
+  <rect x="254" y="126" width="92" height="22" rx="11" fill="#065f46" fill-opacity="0.25"/>
+  <rect x="254" y="126" width="92" height="22" rx="11" fill="none" stroke="#10b981" stroke-width="0.6" stroke-opacity="0.5"/>
+  <text x="300" y="141"
+        font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+        font-size="11" fill="#34d399" text-anchor="middle">Open to Work</text>
+
+  <!-- Neural network decoration — right side -->
+  <!-- Connection lines: input → hidden → output -->
+  <g opacity="0.10" stroke-width="1">
+    <!-- Input (x=610) to Hidden (x=678) -->
+    <line x1="610" y1="40" x2="678" y2="26" stroke="#8b5cf6"/>
+    <line x1="610" y1="40" x2="678" y2="70" stroke="#8b5cf6"/>
+    <line x1="610" y1="40" x2="678" y2="114" stroke="#8b5cf6"/>
+    <line x1="610" y1="40" x2="678" y2="150" stroke="#8b5cf6"/>
+    <line x1="610" y1="85" x2="678" y2="26" stroke="#8b5cf6"/>
+    <line x1="610" y1="85" x2="678" y2="70" stroke="#8b5cf6"/>
+    <line x1="610" y1="85" x2="678" y2="114" stroke="#8b5cf6"/>
+    <line x1="610" y1="85" x2="678" y2="150" stroke="#8b5cf6"/>
+    <line x1="610" y1="130" x2="678" y2="26" stroke="#8b5cf6"/>
+    <line x1="610" y1="130" x2="678" y2="70" stroke="#8b5cf6"/>
+    <line x1="610" y1="130" x2="678" y2="114" stroke="#8b5cf6"/>
+    <line x1="610" y1="130" x2="678" y2="150" stroke="#8b5cf6"/>
+    <!-- Hidden (x=678) to Output (x=748) -->
+    <line x1="678" y1="26" x2="748" y2="55" stroke="#3b82f6"/>
+    <line x1="678" y1="26" x2="748" y2="115" stroke="#3b82f6"/>
+    <line x1="678" y1="70" x2="748" y2="55" stroke="#3b82f6"/>
+    <line x1="678" y1="70" x2="748" y2="115" stroke="#3b82f6"/>
+    <line x1="678" y1="114" x2="748" y2="55" stroke="#3b82f6"/>
+    <line x1="678" y1="114" x2="748" y2="115" stroke="#3b82f6"/>
+    <line x1="678" y1="150" x2="748" y2="55" stroke="#3b82f6"/>
+    <line x1="678" y1="150" x2="748" y2="115" stroke="#3b82f6"/>
+  </g>
+
+  <!-- Input layer nodes -->
+  <circle cx="610" cy="40"  r="5" fill="#8b5cf6" opacity="0.45"/>
+  <circle cx="610" cy="85"  r="5" fill="#8b5cf6" opacity="0.45"/>
+  <circle cx="610" cy="130" r="5" fill="#8b5cf6" opacity="0.45"/>
+
+  <!-- Hidden layer nodes -->
+  <circle cx="678" cy="26"  r="5" fill="#a78bfa" opacity="0.55"/>
+  <circle cx="678" cy="70"  r="5" fill="#a78bfa" opacity="0.55"/>
+  <circle cx="678" cy="114" r="5" fill="#a78bfa" opacity="0.55"/>
+  <circle cx="678" cy="150" r="5" fill="#a78bfa" opacity="0.55"/>
+
+  <!-- Output layer nodes -->
+  <circle cx="748" cy="55"  r="6" fill="#3b82f6" opacity="0.65"/>
+  <circle cx="748" cy="115" r="6" fill="#3b82f6" opacity="0.65"/>
+
+  <!-- Soft glow behind net -->
+  <ellipse cx="685" cy="88" rx="92" ry="66" fill="#8b5cf6" opacity="0.03"/>
+</svg>
